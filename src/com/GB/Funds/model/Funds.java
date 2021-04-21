@@ -6,13 +6,13 @@ public class Funds {
 	private String FAddress;
 	private String FPhone;
 	private String FProjectID;
-	private float Fund;
+	private String Fund;
 	
 	public Funds() {
 		
 	}
 	
-	public Funds(String FundId, String FundingAgency, String FAddress, String FPhone, String  FProjectID, Float Fund) {
+	public Funds(String FundId, String FundingAgency, String FAddress, String FPhone, String  FProjectID, String Fund) {
 		super();
 		this.FundId = FundId;
 		this.FundingAgency = FundingAgency;
@@ -63,13 +63,17 @@ public class Funds {
 		this.FProjectID = FProjectID;
 	}
 
-	public Float getFund() {
+	public String getFund() {
 		return Fund;
 	}
 
-	public void sethFund(float Fund) {
+	public void setFund(String Fund) {
 		this.Fund = Fund;
 	}
+
+	
+
+	
 
 
 
