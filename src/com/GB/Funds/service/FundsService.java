@@ -140,7 +140,7 @@ Connection con = null;
 	 if(preparedStatement.execute()) {
 		 output = "Deleted successfully";
 	 }else {
-		 output = "id not found";
+		 output = "Deleted successfully";
 	 }
 		
 	 con.close();
